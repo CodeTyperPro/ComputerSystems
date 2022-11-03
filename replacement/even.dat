@@ -1,0 +1,8 @@
+2 
+4 read w
+6 while test "$w" != "end"
+8 echo $w >> f.dat
+10 read w
+12 
+14 then
+16 rm f.dat

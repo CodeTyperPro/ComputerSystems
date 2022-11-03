@@ -1,0 +1,9 @@
+1 #!/bin/sh
+3 echo "give me a word"
+5 
+7 do
+9 echo "give me a word"
+11 done
+13 if test -f f.dat
+15 sort f.dat
+17 fi
