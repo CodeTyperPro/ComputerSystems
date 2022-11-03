@@ -1,0 +1,500 @@
+    6  exit
+    7  clear
+    8  cd self_practice/
+    9  ls
+   10  pwd
+   11  ls 
+   12  ls -wc
+   13  wc -l
+   14  clear
+   15  ls | wc -l
+   16  who | wc -l
+   17  who
+   18  clear
+   19  clear
+   20  getent passwd | grep "m"
+   21  who | grep "m"
+   22  getent | grep "m"
+   23  getent passwd | grep "m"
+   24  getent passwd | grep "m" | wc -l
+   25  clear
+   26  who | sort | head
+   27  echo "ELTE" > ELTE.txt
+   28  ls
+   29  cat ELTE.txt | wc -l
+   30  man wc
+   31  clear
+   32  cat ELTE.txt | wc -m
+   33  who | sort | uniq | wc -l
+   34  tee
+   35  clearn
+   36  clear
+   37  who | sort | cut -f1 -d " " | uniq | wc -l"
+   38  cds
+   39  sfdfd
+   40  exit
+   41  exit
+   42  quit
+   43  exit
+   44  "
+   45  who | sort | cut -f1 -d " " | uniq | wc -l
+   46  who | sort | cut -f1 -d " " | uniq
+   47  who | sort | cut -f1 -d " " | uniq > logged_users.txt && who | sort | uniq | wc -l >> logged_users.txt
+   48  ls
+   49  cat logged_users.txt 
+   50  clear
+   51  ls
+   52  history
+   53  clear
+   54  ls
+   55  ls -l
+   56  ls -l f2
+   57  ls -l *
+   58  ls -al *
+   59  ls -l | cut -f1 -d " "
+   60  ls -l | cut -f2 -d " "
+   61  ls -l | cut -f3 -d " "
+   62  ls -l | cut -f5 -d " "
+   63  ls -l | cut -f6 -d " "
+   64  ls -l | cut -f6 " "
+   65  clear
+   66  du -h *
+   67  ls
+   68  du -h *
+   69  du -h * | cut f1
+   70  du -h * | cut -f1 d " "
+   71  find ./ -type f -printf "%d !
+   72  dss
+   73  exit
+   74  exiot
+   75  exit
+   76  quit
+   77  dsds
+   78  "
+   79  clearn
+   80  clear
+   81  find ./ -type f -printf "%f
+   82  "
+   83  find ./ -type f -printf "%f "
+   84  find ./ -type f -printf "%f "
+   85  find ./ -type f -printf "%f "
+   86  find ./ -type f -printf "%f 
+   87  " > file_names.txt
+   88  ls
+   89  cat file_names.txt 
+   90  clear
+   91  clear
+   92  clear
+   93  clear
+   94  mkdir exam
+   95  ls
+   96  cd exam/
+   97  ls
+   98  clear
+   99  mkdir text
+  100  mkdir picture
+  101  ls
+  102  cd text/
+  103  ls
+  104  cd ..
+  105  ls
+  106  rm picture/ text/
+  107  rm -rf picture/ text/
+  108  ls
+  109  mkdir picture text
+  110  ls
+  111  rm -rf picture/ text/
+  112  ls
+  113  clear
+  114  mkdir text picture
+  115  ls
+  116  cd text
+  117  mkdir copy zip
+  118  ls
+  119  clear
+  120  cd ..
+  121  exit
+  122  exit
+  123  ls
+  124  cd self_practice/
+  125  ls
+  126  clear
+  127  ls
+  128  vi elte.txt
+  129  ls
+  130  cat elte.txt 
+  131  clear
+  132  man ls
+  133  clear
+  134  ls -al
+  135  ls -a
+  136  ls -l
+  137  ls -ll
+  138  clear
+  139  ls
+  140  cd self_practice/
+  141  ls
+  142  history > history.txt
+  143  ls
+  144  cat history.txt 
+  145  mv history.txt history.dat
+  146  ls
+  147  cat history.dat 
+  148  who
+  149  clear
+  150  who > users.txt
+  151  ls
+  152  cat users.txt ´
+  153  clear
+  154  ls
+  155  cd self_practice/
+  156  ls
+  157  vi multiplication.sh
+  158  ls
+  159  cat multiplication.sh 
+  160  chmod u+x multiplication.sh 
+  161  clear
+  162  ls -l
+  163  ./
+  164  ./multiplication.sh 
+  165  vi multiplication.sh 
+  166  ./multiplication.sh 
+  167  vi multiplication.sh 
+  168  ./multiplication.sh 
+  169  vi multiplication.sh 
+  170  vi multiplication.sh 
+  171  ./multiplication.sh 
+  172  vi multiplication.sh 
+  173  ./multiplication.sh 
+  174  vi multiplication.sh 
+  175  ./multiplication.sh 
+  176  vi multiplication.sh 
+  177  ./multiplication.sh 
+  178  vi multiplication.sh 
+  179  ./multiplication.sh 
+  180  vi multiplication.sh 
+  181  ./multiplication.sh 
+  182  vi multiplication.sh 
+  183  ./multiplication.sh 
+  184  vi multiplication.sh 
+  185  vi multiplication.sh 
+  186  ./multiplication.sh 
+  187  vi multiplication.sh 
+  188  ./multiplication.sh 
+  189  vi multiplication.sh 
+  190  ./multiplication.sh 
+  191  vi multiplication.sh 
+  192  ./multiplication.sh 
+  193  vi multiplication.sh 
+  194  clear
+  195  ./multiplication.sh 
+  196  vi multiplication.sh 
+  197  ./multiplication.sh 
+  198  vi multiplication.sh 
+  199  ./multiplication.sh 
+  200  vi multiplication.sh 
+  201  ./multiplication.sh 
+  202  vi multiplication.sh 
+  203  ./multiplication.sh 
+  204  vi multiplication.sh 
+  205  ./multiplication.sh 
+  206  vi multiplication.sh 
+  207  ./multiplication.sh 
+  208  vi multiplication.sh 
+  209  ./multiplication.sh 
+  210  vi multiplication.sh 
+  211  ./multiplication.sh 
+  212  vi multiplication.sh 
+  213  ./multiplication.sh 
+  214  vi multiplication.sh 
+  215  vi multiplication.sh 
+  216  vi multiplication.sh 
+  217  ./multiplication.sh 
+  218  vi multiplication.sh 
+  219  ./multiplication.sh 
+  220  vi multiplication.sh 
+  221  ./multiplication.sh 
+  222  vi multiplication.sh 
+  223  ./multiplication.sh 
+  224  vi multiplication.sh 
+  225  ./multiplication.sh 
+  226  vi multiplication.sh 
+  227  ./multiplication.sh 
+  228  vi multiplication.sh 
+  229  ./multiplication.sh 
+  230  ./multiplication.sh 
+  231  vi multiplication.sh 
+  232  ./multiplication.sh 
+  233  vi multiplication.sh 
+  234  ./multiplication.sh 
+  235  vi multiplication.sh 
+  236  ./multiplication.sh 
+  237  vi multiplication.sh 
+  238  ./multiplication.sh 
+  239  ./multiplication.sh 
+  240  clear
+  241  vi multiplication.sh 
+  242  ./multiplication.sh 
+  243  vi multiplication.sh 
+  244  ./multiplication.sh 
+  245  vi multiplication.sh 
+  246  ./multiplication.sh 
+  247  vi multiplication.sh 
+  248  ./multiplication.sh 
+  249  wq
+  250  vi multiplication.sh 
+  251  wq
+  252  ./multiplication.sh 
+  253  vi multiplication.sh 
+  254  ./multiplication.sh 
+  255  vi multiplication.sh 
+  256  ./multiplication.sh 
+  257  vi multiplication.sh 
+  258  ./multiplication.sh 
+  259  vi multiplication.sh 
+  260  ./multiplication.sh 
+  261  vi multiplication.sh 
+  262  ./multiplication.sh 
+  263  vi multiplication.sh 
+  264  man echo
+  265  vi multiplication.sh 
+  266  vi multiplication.sh 
+  267  vi multiplication.sh 
+  268  ./multiplication.sh 
+  269  vi multiplication.sh 
+  270  ./multiplication.sh 
+  271  man echo
+  272  vi multiplication.sh 
+  273  ./multiplication.sh 
+  274  vi multiplication.sh 
+  275  ./multiplication.sh 
+  276  vi multiplication.sh 
+  277  ./multiplication.sh 
+  278  vi multiplication.sh 
+  279  ./multiplication.sh 
+  280  vi multiplication.sh 
+  281  ./multiplication.sh 
+  282  ./multiplication.sh 
+  283  vi multiplication.sh 
+  284  ./multiplication.sh 
+  285  vi multiplication.sh 
+  286  ./multiplication.sh 
+  287  vi multiplication.sh 
+  288  ./multiplication.sh 
+  289  vi multiplication.sh 
+  290  ./multiplication.sh 
+  291  vi multiplication.sh 
+  292  ./multiplication.sh 
+  293  vi multiplication.sh 
+  294  ./multiplication.sh 
+  295  vi multiplication.sh 
+  296  ./multiplication.sh 
+  297  vi multiplication.sh 
+  298  ./multiplication.sh 
+  299  vi multiplication.sh 
+  300  ./multiplication.sh 
+  301  vi multiplication.sh 
+  302  ./multiplication.sh 
+  303  vi multiplication.sh 
+  304  ./multiplication.sh 
+  305  vi multiplication.sh 
+  306  ./multiplication.sh 
+  307  vi multiplication.sh 
+  308  ./multiplication.sh 
+  309  vi multiplication.sh 
+  310  ./multiplication.sh 
+  311  exit
+  312  exit
+  313  clear
+  314  clear
+  315  clear
+  316  cd self_practice/
+  317  ls
+  318  vi sort.sh
+  319  chmod u+x sort.sh 
+  320  clear
+  321  ls
+  322  ./sort.sh 
+  323  vi sort.sh
+  324  ./sort.sh 
+  325  clear
+  326  ls
+  327  sort 
+  328  ./sort.sh 
+  329  rm temp.data
+  330  ls
+  331  ./sort.sh 
+  332  vi sort.sh
+  333  ./sort.sh 
+  334  clear
+  335  vi sort.sh
+  336  #*y
+  337  "*p
+  338  "
+  339  clear
+  340  ./sort.sh 
+  341  clear
+  342  clear
+  343  vi evenodd.sh
+  344  chmod u+x evenodd.sh 
+  345  ls
+  346  ./e
+  347  ./evenodd.sh 
+  348  vi evenodd.sh
+  349  ./evenodd.sh 
+  350  ./evenodd
+  351  vi evenodd.sh
+  352  chmod u+x evenodd.sh 
+  353  ./evenodd
+  354  ./evenodd.sh
+  355  clear
+  356  ls
+  357  ./evenodd.sh 
+  358  chmod u+x evenodd.sh 
+  359  vi evenodd.sh
+  360  chmod u+x evenodd.sh 
+  361  ./evenodd.sh 
+  362  vi evenodd.sh
+  363  clear
+  364  ./evenodd.sh sort.sh 
+  365  cat even.data 
+  366  cat odd.data 
+  367  vi evenodd.sh
+  368  vi evenodd.sh
+  369  vi evenodd.sh
+  370  clear
+  371  ./evenodd.sh sort.sh 
+  372  vi evenodd.sh
+  373  ./evenodd.sh sort.sh 
+  374  vi evenodd.sh
+  375  ./evenodd.sh sort.sh 
+  376  cat odd.data 
+  377  ./evenodd.sh
+  378  ./evenodd.sh jkj
+  379  vi evenodd.sh
+  380  ./evenodd.sh jkj
+  381  clear
+  382  vi sum.sh
+  383  ./sort.sh 
+  384  chmod u+x sum.sh
+  385  ./sum
+  386  ./sum.sh
+  387  ./sum.sh 
+  388  ./sum.sh 1 2 3 4 5
+  389  vi sum.sh
+  390  cat
+  391  vi sum.sh
+  392  vi sum.sh
+  393  echo 1 2 3 4 5 | ./sum.sh 
+  394  ./sum.sh 1 2 3 4 5
+  395  clear
+  396  vi prime.sh
+  397  chmod u+x prime.sh 
+  398  ls
+  399  ./prime.sh 
+  400  ./prime.sh 5 20
+  401  ./prime.sh 
+  402  vi prime.sh
+  403  ./prime.sh 
+  404  clear
+  405  ./prime.sh 5 20
+  406  exit
+  407  exit
+  408  clear
+  409  echo "hello" | line
+  410  echo "hello"
+  411  echo hello | line
+  412  ls
+  413  cd self_practice/
+  414  ls
+  415  clear
+  416  vi testing.sh
+  417  chmod u+x testing.sh 
+  418  ls
+  419  clear
+  420  ./testing.sh 
+  421  vi testing.sh
+  422  ./testing.sh 
+  423  vi testing.sh
+  424  ./testing.sh 
+  425  vi testing.sh
+  426  ./testing.sh 
+  427  clear
+  428  cat testing.sh 
+  429  ./testing.sh 
+  430  vi testing.sh
+  431  echo hello | e
+  432  echo hello | line
+  433  vi testing.sh
+  434  echo cat testing.sh | line
+  435  echo | cat testing.sh | line
+  436  clear
+  437  echo "Hi everyone!" | for i in `line`; do echo $i; done
+  438  echo "Hi everyone!" | for i in `line`; do echo $i[0]; done
+  439  echo "Hi everyone!" | for i in `line`; do echo ${i:0:1}; done
+  440  exit
+  441  clear
+  442  clear
+  443  ls
+  444  clear
+  445  ls
+  446  mkdir lesson
+  447  cd les
+  448  cd lesson/
+  449  clear
+  450  vi counter.sh
+  451  vi count.sh
+  452  rm counter.sh count.data
+  453  vi counter.sh
+  454  vi count.sh
+  455  rv counter.sh count.data
+  456  mv counter.sh count.data
+  457  ls
+  458  sh count.sh count.sh 
+  459  vi count.sh
+  460  sh count.sh count.sh 
+  461  vi count.sh
+  462  sh count.sh count.sh 
+  463  vi count.sh
+  464  vi count.sh
+  465  vi count.sh
+  466  sh count.sh count.sh 
+  467  vi count.sh
+  468  sh count.sh count.sh 
+  469  vi count.sh
+  470  sh count.sh count.sh 
+  471  vi count.sh
+  472  sh count.sh count.dat
+  473  sh count.sh count.data
+  474  vi count.sh
+  475  vi count.sh
+  476  sh count.sh count.data
+  477  vi count.sh
+  478  sh count.sh count.data
+  479  vi count.sh
+  480  sh count.sh count.data
+  481  history 
+  482  vi change.sh
+  483  touch data_names.dat
+  484  vi data_names.dat 
+  485  sh change.sh data_names.dat
+  486  cat data_names.dat 
+  487  vi change.sh
+  488  cat data_names.dat 
+  489  sh change.sh data_names.dat
+  490  vi new_change.sh
+  491  vi new_change_1.sh
+  492  vi data_names.dat 
+  493  vi new_change_1.sh
+  494  sh change.sh data_names.dat
+  495  exit
+  496  exit
+  497  ls
+  498  cd self_practice/
+  499  ls
+  500  cd exam/
+  501  ls
+  502  cd ..
+  503  history
+  504  ls
+  505  history > history.data

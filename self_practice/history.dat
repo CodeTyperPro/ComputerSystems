@@ -1,0 +1,330 @@
+    1  exit
+    2  who am I
+    3  pwd
+    4  ls
+    5  cd public
+    6  ls
+    7  cat public_html/
+    8  cd public_html/
+    9  ls
+   10  echo hello > index.html
+   11  ls
+   12  cat index.html 
+   13  rm index.html 
+   14  ls
+   15  echo firday > index.html
+   16  ls
+   17  ls
+   18  cat index.html 
+   19  cat index.html 
+   20  cat index.html 
+   21  exit
+   22  ls
+   23  who
+   24  ls
+   25  ls -l
+   26  ls -al
+   27  ls -error
+   28  ls -l error
+   29  exit
+   30  cd public
+   31  mdir 0930_12
+   32  mkdir 0930_12
+   33  cd 0930_12/
+   34  echo hello > hello.txt
+   35  ls
+   36  man ls
+   37  man ls > manls.txt
+   38  ls
+   39  cat manls.txt 
+   40  cp manls.txt copy.txt
+   41  ls
+   42  cat manls.txt 
+   43  cat copy.txt 
+   44  ls -al
+   45  ln manls.txt ln.txt
+   46  ls -al
+   47  cat ln.txt 
+   48  echo Hello >> manls.txt 
+   49  a
+   50  cat manls.txt 
+   51  cat ln.txt 
+   52  echo GoodBye >> ln.txt 
+   53  cat manls.txt 
+   54  cat ln.txt 
+   55  ln -s manls.txt ln.txt 
+   56  ln -s manls.txt lns.txt 
+   57  ls
+   58  cat lns.txt 
+   59  ln -s manls.txt lns.txt 
+   60  ln -s manls.txt ln.txt 
+   61  ~rm manls.txt 
+   62  ls
+   63  cat lns
+   64  cat lns.txt 
+   65  cat ln.txt 
+   66  cat lns.txt 
+   67  cat ln.txt 
+   68  ls -al
+   69  clear
+   70  history >> history.txt
+   71  cat history.txt 
+   72  ls -al
+   73  chmod g-r hello.txt
+   74  ls -al
+   75  chmod go+r hello.txt 
+   76  ls
+   77  ls -al
+   78  chmod u+ hello.txt 
+   79  ls
+   80  chmod u- hello.txt 
+   81  ls
+   82  chmod u-w hello.txt 
+   83  ls
+   84  head -3
+   85  head -3 copy.txt 
+   86  sort copy.txt 
+   87  who
+   88  who > who.txt
+   89  cat who.txt 
+   90  sort who
+   91  sort who.txt
+   92  cut -f1 -d " " who.txt 
+   93  cut -f3 -d " " who.txt 
+   94  cut -f4 -d " " who.txt 
+   95  cut -f16 -d " " who.txt 
+   96  cut -f15 -d " " who.txt 
+   97  cut -f11 -d " " who.txt 
+   98  cut -f17 -d " " who.txt 
+   99  cut -f18 -d " " who.txt 
+  100  cut -f20 -d " " who.txt 
+  101  cut -f19 -d " " who.txt 
+  102  cut -f25 -d " " who.txt 
+  103  cut -f21 -d " " who.txt 
+  104  cut -f22 -d " " who.txt 
+  105  cut -f17 -d " " who.txt 
+  106  cut -f18 -d " " who.txt 
+  107  cut -f19 -d " " who.txt 
+  108  cut -f30 -d " " who.txt 
+  109  ls
+  110  clear
+  111  cat who.txt | cut -f2 -d"(" | cut -f1 -d")"
+  112  cut -f22 -d " " who.txt 
+  113  logout
+  114  logout
+  115  exit
+  116  vi first.sh
+  117  ls
+  118  cat insValue 
+  119  ls
+  120  ls -l
+  121  whoami
+  122  users
+  123  who
+  124  logout
+  125  ls
+  126  ls
+  127  touch ch1.doc
+  128  touch ch2.doc
+  129  touch ch3.doc
+  130  touch ch4.doc
+  131  ls
+  132  ls ch*.doc
+  133  ls *.doc
+  134  ls
+  135  ls -a
+  136  ls
+  137  vi ch1.doc 
+  138  history
+  139  vi ch1.doc 
+  140  cat ch1.doc 
+  141  cat -b ch1.doc 
+  142  vi ch1.doc 
+  143  cat -b ch1.doc 
+  144  vi ch1.doc 
+  145  wc ch1.doc 
+  146  wc ch1.doc ch2.doc ch3.doc 
+  147  vi ch2.doc
+  148  wc ch1.doc ch2.doc ch3.doc 
+  149  cp ch1.doc copy_ch1.doc
+  150  ls
+  151  cat copy_ch1.doc 
+  152  mv copy_ch1.doc new_name_copy_ch1.doc
+  153  ls
+  154  cat new_name_copy_ch1.doc 
+  155  ls
+  156  rm ch1.doc 
+  157  ls
+  158  rm ch2.doc ch3.doc 
+  159  ls
+  160  ls
+  161  cd public
+  162  s
+  163  ls
+  164  cd public_html/
+  165  cd ~
+  166  cd public/public_html/
+  167  ls
+  168  cd ~heiopo
+  169  cd -
+  170  pwrd
+  171  pwd
+  172  ls
+  173  who
+  174  talk h0pqir
+  175  talk h0pqir
+  176  talk h0pqir
+  177  talk h0pqir
+  178  talk h0pqir
+  179  talk h0pqir
+  180  talk h0pqir
+  181  talk h0pqir
+  182  talk h0pqir
+  183  talk h0pqir
+  184  talk h0pqir
+  185  talk h0pqir
+  186  talk h0pqir
+  187  talk h0pqir
+  188  talk h0pqir
+  189  mesg y
+  190  talk h0pqir
+  191  :
+  192  talk h0pqir
+  193  exit
+  194  exit
+  195  clear
+  196  cd self_practice/
+  197  ls
+  198  pwd
+  199  ls 
+  200  ls -wc
+  201  wc -l
+  202  clear
+  203  ls | wc -l
+  204  who | wc -l
+  205  who
+  206  clear
+  207  clear
+  208  getent passwd | grep "m"
+  209  who | grep "m"
+  210  getent | grep "m"
+  211  getent passwd | grep "m"
+  212  getent passwd | grep "m" | wc -l
+  213  clear
+  214  who | sort | head
+  215  echo "ELTE" > ELTE.txt
+  216  ls
+  217  cat ELTE.txt | wc -l
+  218  man wc
+  219  clear
+  220  cat ELTE.txt | wc -m
+  221  who | sort | uniq | wc -l
+  222  tee
+  223  clearn
+  224  clear
+  225  who | sort | cut -f1 -d " " | uniq | wc -l"
+  226  cds
+  227  sfdfd
+  228  exit
+  229  exit
+  230  quit
+  231  exit
+  232  "
+  233  who | sort | cut -f1 -d " " | uniq | wc -l
+  234  who | sort | cut -f1 -d " " | uniq
+  235  who | sort | cut -f1 -d " " | uniq > logged_users.txt && who | sort | uniq | wc -l >> logged_users.txt
+  236  ls
+  237  cat logged_users.txt 
+  238  clear
+  239  ls
+  240  history
+  241  clear
+  242  ls
+  243  ls -l
+  244  ls -l f2
+  245  ls -l *
+  246  ls -al *
+  247  ls -l | cut -f1 -d " "
+  248  ls -l | cut -f2 -d " "
+  249  ls -l | cut -f3 -d " "
+  250  ls -l | cut -f5 -d " "
+  251  ls -l | cut -f6 -d " "
+  252  ls -l | cut -f6 " "
+  253  clear
+  254  du -h *
+  255  ls
+  256  du -h *
+  257  du -h * | cut f1
+  258  du -h * | cut -f1 d " "
+  259  find ./ -type f -printf "%d !
+  260  dss
+  261  exit
+  262  exiot
+  263  exit
+  264  quit
+  265  dsds
+  266  "
+  267  clearn
+  268  clear
+  269  find ./ -type f -printf "%f
+  270  "
+  271  find ./ -type f -printf "%f "
+  272  find ./ -type f -printf "%f "
+  273  find ./ -type f -printf "%f "
+  274  find ./ -type f -printf "%f 
+  275  " > file_names.txt
+  276  ls
+  277  cat file_names.txt 
+  278  clear
+  279  clear
+  280  clear
+  281  clear
+  282  mkdir exam
+  283  ls
+  284  cd exam/
+  285  ls
+  286  clear
+  287  mkdir text
+  288  mkdir picture
+  289  ls
+  290  cd text/
+  291  ls
+  292  cd ..
+  293  ls
+  294  rm picture/ text/
+  295  rm -rf picture/ text/
+  296  ls
+  297  mkdir picture text
+  298  ls
+  299  rm -rf picture/ text/
+  300  ls
+  301  clear
+  302  mkdir text picture
+  303  ls
+  304  cd text
+  305  mkdir copy zip
+  306  ls
+  307  clear
+  308  cd ..
+  309  exit
+  310  exit
+  311  ls
+  312  cd self_practice/
+  313  ls
+  314  clear
+  315  ls
+  316  vi elte.txt
+  317  ls
+  318  cat elte.txt 
+  319  clear
+  320  man ls
+  321  clear
+  322  ls -al
+  323  ls -a
+  324  ls -l
+  325  ls -ll
+  326  clear
+  327  ls
+  328  cd self_practice/
+  329  ls
+  330  history > history.txt

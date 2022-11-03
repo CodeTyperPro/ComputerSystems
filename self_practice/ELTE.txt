@@ -1,0 +1,10 @@
+Subjects I learn in ELTE:
+1 - Computer Systems;
+2 - Functional Programming;
+3 - Imperative Programming;
+4 - Programming Theory;
+5 - Probability and Statistics;
+6 - Algorithm and Data Structure II;
+7 - Learning Methodology;
+8 - Creativity, Enterpreneurship and Responsability;
+9 - Programming Languages.

@@ -1,0 +1,10 @@
+2 
+4 read word
+6 while test "$word" != "end"
+8 echo $word >> temp.data
+10 read word
+12 
+14 rm temp.data
+16 if test -f temp.data
+18 sort temp.data
+20 fi

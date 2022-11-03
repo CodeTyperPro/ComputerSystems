@@ -1,0 +1,10 @@
+1 #!/bin/sh
+3 echo -n "Enter a word: "
+5 
+7 do
+9 echo -n "Enter a word: "
+11 done
+13 sort temp.data
+15 
+17 then
+19 rm temp.data
