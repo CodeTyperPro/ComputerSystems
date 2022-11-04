@@ -1,0 +1,18 @@
+EASTER BUNNY MEETING
+
+Budapest 
+II. János Pál pápa tér 7
+H-1081 BUDAPEST
+Circular number: #<id>
+
+Date: <date>
+Address: <address>
+
+Dear Mr./Ms. <name>,
+This is the last minute notification to all the employees for an emergency meeting that is going be held today itself after office hours. The time of the meeting is from 7:00pm to 8:30pm.
+
+The meeting will be held in Sapphire conference and will start sharp at 7:00pm. So please make sure to reach the conference hall before 10 minutes for a hassle free sitting arrangement. It is compulsory for all the people to attend the meeting. No excuses will be entertained at any cost. The purpose of the meeting is the sudden technical error that we are facing in the production plant which is affecting all the departments of the organization. All the seniors and supervisors are requested to prepare a contingency plan to deal with the coming problem and come up with the short presentations. I know the time is less but as you know we have done it before and we can do it again! Make sure to switch off your mobiles before the meeting.
+
+Sincerely,
+<sender>
+
