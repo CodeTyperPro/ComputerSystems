@@ -2,7 +2,7 @@
 
 FILE=$1
 
-if $# -eq 0
+if test $# -eq 0
 then
 	echo "Please, pass the file via command line."
 elif test -f $FILE
@@ -38,13 +38,27 @@ then
 		index=`expr $index + 1`
 	done < $FILE
 
+	
+	echo "ORIGINAL CONTENT OF FILE: "
+	cat $FILE
+
 	#Update FILE
-	index=0
+	index=1
 	while read line
 	do
-		#`sed '$index i/{&} $line/g' $FILE`
+		if test $line -eq $max_number_
+		then 
+			sed -i "$index s/$/ => $line/g" $FILE
+		else
+			sed -i "$index s/$/    $line/g" $FILE
+		fi
+
 		index=`expr $index + 1`
 	done < $TEMP
+
+	echo ""
+	echo "FILE MODIFIED: "
+	cat $FILE
 else
 	echo "File not found."
 fi
