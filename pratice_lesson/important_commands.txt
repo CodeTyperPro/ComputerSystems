@@ -1,0 +1,2 @@
+Install-Module posh-ssh
+Import-Module Posh-SSH
