@@ -2,10 +2,10 @@ Whistling Ltd, 1111 Budapest dog street 6, 5, 3
 Ferenc, 1234 Budapest 3, 5, 2
 Diák, 2 Harminc Ketechekterem 3, 5, 2
 Luanda, 234 Angola 3, 0, 2
-Pécs, 34 Hungary 3, 5, 2
+Pecs, 34 Hungary 3, 5, 2
 Budapest, 111 Hungary 3, 5, 2
-Pécs, 2 Hungary 3, 0, 2
+Pecs, 2 Hungary 3, 0, 2
 Madrid, 23 Spain 3, 5, 2
 Barcelona, 234 Spain 3, 5, 2
-Pécs, 6 Hungary 3, 5, 2
+Pecs, 6 Hungary 3, 5, 2
 Muscovo, 02 Russia 3, 5, 2
