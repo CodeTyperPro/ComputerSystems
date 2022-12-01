@@ -11,15 +11,14 @@ Create a shell script named jobs.sh that processes over a text file (given in th
 Run the following command in the linux terminal line:
 
 ```
-To be corrected ...
 
 chmod u+x jobs.sh
 
-./lessons.ps1 file_schedules_1.dat
+./jobs.ps1 file_01.jobs.txt
 
 OR
 
-./lessons.ps1 file_schedules_2.dat
+./jobs.ps1 file_02.jobs.txt
 ```
 
 > Made by MARTINS Alfredo.

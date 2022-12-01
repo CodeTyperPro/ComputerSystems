@@ -22,6 +22,20 @@ function printHeader(){
 function getWorkplacesNoViolentActs(){
     
     Write-Host ":: WORKPLACES WHERE NO VIOLENT ACTS HAVE BEEN REPORTED ::"
+    $text = Get-Content $FILE
+    foreach($line in $text){
+        Write.Output $line
+        $array_string = @()
+        $array_string += $line.split(",")
+
+        if($array_string.Lenght -ne 4){
+            printInvalidDataMessage
+        }
+
+        foreach($item in $array_string){
+            Write.Output $item " "
+        }
+    }
 
     closeOrNot
 }
@@ -36,6 +50,12 @@ function getHigherNumberOfViolentIncidents(){
     Write-Host ":: WORKPLACES WITH HIGHEST NUMBE OF VIOLENT INCIDENT (<NAME>, <ADDRESS>) ::"
 
     closeOrNot
+}
+
+function printInvalidDataMessage(){
+    Write-Host "!!! ALERT !!!"
+    Write-Host "==> Invalid data. Try again later! <=="
+    dismiss
 }
 
 function dismiss(){
@@ -79,7 +99,7 @@ function askOption(){
     }
 }
 
-echo "$FILE"
+Write-Host "$FILE"
 
 # The script execution starts here ...
 #File if the file exist and if any parameter was given
