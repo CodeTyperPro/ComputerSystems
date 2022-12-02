@@ -46,7 +46,11 @@ function getWorkplacesNoViolentActs(){
         }
     }
 
-    Write-Host $result
+    if($result.Length -gt 0){
+        Write-Host $result    
+    } else{
+        Write-Host "NONE"
+    }
 
     closeOrNot
 }
