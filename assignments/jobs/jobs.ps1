@@ -140,7 +140,7 @@ function dismiss(){
     Write-Host ""
     $now = Get-Date
     Write-Host "THANK YOU FOR USING MY SCRIPT :) $now"
-    Write-Host "Copyright© ComSys ELTE 2022, Alfredo Martins (Student) & Dr. Bakonyi Viktória (Teacher)"
+    Write-Host "Copyright© ComSys ELTE 2022, Alfredo Martins (Student) & Dr. Bakonyi Viktória (Professor)"
     Exit
 }
 
